@@ -53,7 +53,7 @@ main {
     align-items: center;
 }
 
-.login-button {
+.login-button, .request-button {
     width: max-content;
     padding: 15px 30px;
     margin: 20px 0px;
@@ -75,4 +75,13 @@ main {
 .login-button--popup {
     background: rgb(255, 236, 65);
     color: #111111;
+}
+
+.request-button {
+    background: rgb(58, 104, 255);
+    color: #fff
+}
+
+.request-button:hover {
+    padding: 15px 40px;
 }
