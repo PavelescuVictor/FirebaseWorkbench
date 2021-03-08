@@ -1,0 +1,36 @@
+{
+  "name": "firebaseworkbench",
+  "version": "1.0.0",
+  "description": "Repository that serves as a work bench for learning Firebase",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "start": "npm run clean && parcel ./src/*.html",
+    "build": "parcel build ./src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelescuVictor/FirebaseWorkbench.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelescuVictor/FirebaseWorkbench/issues"
+  },
+  "homepage": "https://github.com/PavelescuVictor/FirebaseWorkbench#readme",
+  "dependencies": {
+    "firebase": "^8.2.10",
+    "firebaseui": "^4.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "eslint": "^7.21.0",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "^2.2.1"
+  },
+  "alias": {
+  },
+  "type": "module"
+}
